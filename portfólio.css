@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+    
+ body {
+    background-image:url("pic1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    }
+
+    container {
+        margin-inline: auto;
+        width: min(90%,150rem);
+        }
+        
+        nav {
+        padding-top: 1.6rem;
+        padding-bottom: 1.6rem;
+        }
+        
+        nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        
+        nav .links a {
+        font-size: 30px;
+        color:white;
+        text-decoration: none;
+        margin-right: 3.2rem;
+        transition: all 0.4s ease;
+        }
+
+    .links {
+        text-align:right;
+        font-family:'Barlow Condensed', sans-serif;
+    }
+
+
+h1 {
+color: whitesmoke;
+margin-top: 100px;
+margin-bottom: 10px;
+margin-left:60px;
+font-size: 5.8em;
+font-family: 'Barlow Condensed', sans-serif;
+}
+  
+h2 {
+    color: whitesmoke;
+    
+    margin-top:10px;
+    margin-left:70px;
+    margin-bottom: 10px;
+    font-size:35px;
+    font-family: 'Barlow Condensed', sans-serif;
+ }
+
+ h5 {
+font-family: 'Barlow Condensed', sans-serif;
+color: whitesmoke;
+margin-top: 100px;
+margin-bottom:300px;
+margin-left:30px;
+font-size:15px;
+ }
+ 
+    
+    
+    
+    header {
+    text-align: center;
+    padding: 96px 0;
+    }
+    
+    header h1 {
+    
+    margin-bottom: 24px;
+    color:white;
+    }
+    
+    header p {
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+    }
+     .imagex img {
+        display:inline;
+        flex-direction:row;
+        padding-bottom:96px;
+        width:300px;
+        height:300px;
+        margin-left: 65px;
+        border-radius:20px;
+     }
+    
+    .metricascontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1%;
+    padding-bottom: 96px;
+    }
+    
+    .biography h3 {
+        color:white;
+        padding: 30px;
+        margin-top:30px;
+        font-size:55px;
+        text-align:left;
+        font-family:'Barlow Condensed', sans-serif;
+        background-color:#2A53AE;
+    }
+
+    .biography p {
+        color:#667085;
+        padding: 40px;
+        margin-top:10px;
+        font-size:25px;
+        text-align:center;
+        justify-content:center;
+        background-color: #F9FAFB;
+    }
+
+    footer {
+    background: #F9FAFB;
+    padding: 9.6rem 0;
+    }
+    
+    footer p {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: #667085;
+    }
+    
+    input#email {
+    padding: 1.2rem 1.6rem;
+    width: 36rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.4s ease;
+    }
+    
+    input#email:focus {
+    border: 1px solid #6e7785;
+    }
+
+    input#number {
+       padding: 1.2rem 1.6rem;
+       width: 36rem;
+       border: 1px solid #D0D5DD;
+       border-radius: 8px;
+       outline: none;
+       margin-right:1.2rem;
+       transition: border 0.4s ease;
+       }
+
+       input#number:focus {
+        border: 1px solid #6e7785;
+       }
+    
+    #submit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    background-color:#2A53AE;
+    border: none;
+    padding: 1.2rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    }
+    
+    #submit:hover {
+    background: #6D7CA3;
+    }
+    
+    form {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 4rem 0;
+    }
+    
+    .credits {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #98A2B3;
+    display: block;
+    text-align: center;
+    }
+    
+    .number {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #98A2B3;
+        display: block;
+        text-align: center;
+        }
+
+    
